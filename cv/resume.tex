@@ -3,12 +3,15 @@
 \newif\ifOnline
 \usepackage{hyperref}
 \usepackage{graphicx}% http://ctan.org/pkg/graphicx
+\usepackage[skins]{tcolorbox}
+\usepackage{everypage}
 
 %Make bottom margin nicer
 \addtolength{\textheight}{-0.75in}
 
 
 \begin{document}
+
 
 \Referencesfalse
 \Onlinefalse
@@ -17,6 +20,11 @@
 \name{\Large Antonio Ken Iannillo}
 \begin{resume}
 
+%\tikz\node[circle,draw,inner sep=1.5cm,fill overzoom image=AKI_PHOTO] (A) {};
+%\hfill\begin{tikzpicture}[radius=2cm,delta angle=180]
+%\path[draw,thick,fill overzoom image=AKI_PHOTO]
+%  (0,0) arc [start angle=-90] -- ++(-3,0) arc [start angle=90] -- cycle;
+%\end{tikzpicture}
 
 \section{\mysidestyle Contact Information}
 \ifOnline
@@ -68,7 +76,15 @@ Software engineering, software dependability and security, fault injection testi
 
 \section{\mysidestyle Professional Experience}
 
-\textbf{Universit\`a degli Studi di Napoli Federico II}, Naples, Italy\hfill\textbf{May 2018 -- present}\\
+\textbf{University of Luxembourg}, Luxembourg City, Luxembourg\hfill\textbf{November 2018 -- present}\\
+\textbf{Research Associate, Interdisciplinary Centre for Security, Reliability and Trust}\hfill 
+\vspace{-3mm}\\\vspace{-1mm}
+\begin{list2}
+	\item \filbreak\textit{Research group:} SEDAN headed by Dr. Radu State
+\end{list2}
+
+
+\textbf{Universit\`a degli Studi di Napoli Federico II}, Naples, Italy\hfill\textbf{May 2018 -- October 2018}\\
 \textbf{Research Fellow, Dependable Systems and Software Engineering Research Team}\hfill 
 \vspace{-3mm}\\\vspace{-1mm}
 \begin{list2}
